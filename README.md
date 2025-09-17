@@ -12,13 +12,13 @@
 Anomarket is built around the core philosophy of **intents**. Instead of forcing users to bridge assets, we allow them to express their desired outcome directly.
 
 A user can create an intent like:
-> "I want to sell my NFT located on **Ethereum Sepolia**, and I am willing to accept payment of 0.1 ETH on **Base Sepolia** OR **Arbitrum Sepolia**."
+> "I want to sell my NFT located on **Ethereum**, and I am willing to accept payment of 0.1 ETH on **Base** OR **Arbitrum**. the number of networks will increase"
 
 The marketplace's off-chain "solver" (the backend) finds this intent, verifies the payment on the chosen network, and executes the NFT transfer on the origin network. This creates a seamless cross-chain experience without the user ever needing to use a traditional asset bridge.
 
 ## ✨ Key Features
 
-* **Multi-Chain Listings:** List NFTs for sale from any supported network (Ethereum, Base, Arbitrum testnets).
+* **Multi-Chain Listings:** List NFTs for sale from any supported network (Ethereum, Base, Arbitrum).
 * **Cross-Chain Payments:** Accept payments in a different network than where the NFT is located.
 * **Centralized Solver Model:** A backend service acts as a trusted solver to monitor and execute trades, simulating how a decentralized solver network would function.
 * **Aggregated Showcase & Profile:** The homepage aggregates all listings from all supported chains. The user profile aggregates all owned NFTs from all chains.
